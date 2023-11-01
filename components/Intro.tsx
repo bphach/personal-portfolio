@@ -55,9 +55,9 @@ export default function Intro() {
          animate={{ opacity: 1, y: 0 }}
         >
         <span className="font-bold text-yellow-500">Hello, I'm Bryan.</span> I'm a{" "}
-        <span className="font-bold text-yellow-500">full-stack developer.</span> I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React, ML & (Next.js)</span>.
+        <span className="font-bold text-yellow-500">CS student.</span> I enjoy building{" "}
+        <span className="font-bold text-yellow-500">full stack application</span>. My focus is{" "}
+        <span className="underline font-bold">Machine Learning & Web Dev</span>.
         </motion.h1>
 
         <motion.div className="flex flex-col sm:flex-row 
@@ -107,4 +107,3 @@ export default function Intro() {
     </section>
   )
 }
-    
