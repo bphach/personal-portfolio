@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
   <section>
-    <h2>About me</h2>
+    <h2 className="text-3xl font-medium capitalize">About me</h2>
     <p>
     After graduating with a degree in{" "}
         <span className="font-medium">Science</span>, I decided to pursue my
@@ -16,7 +16,7 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Python, and AWS
         </span>
-        . I am also familiar with TypeScrip. I am always looking to
+        . I am also familiar with TypeScript. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
